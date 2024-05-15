@@ -13,7 +13,7 @@ morgan.token('body', (req) => JSON.stringify(req.body));
 app.use(morgan(':method :url :body'));
 
 // Setting a port number
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // Defining the data
 let persons = [
