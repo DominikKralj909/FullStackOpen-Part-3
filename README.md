@@ -1,1 +1,0 @@
-# FullStackOpen-Part-3
