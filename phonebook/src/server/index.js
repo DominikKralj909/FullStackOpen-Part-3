@@ -1,5 +1,5 @@
 const express = require('express');
-const morgan = require('morgan');
+// const morgan = require('morgan');
 const cors = require('cors');
 
 const app = express();
@@ -8,9 +8,9 @@ app.use(express.json());
 // CORS setup
 app.use(cors());
 
-// Morgan setup
-morgan.token('body', (req) => JSON.stringify(req.body));
-app.use(morgan(':method :url :body'));
+// // Morgan setup
+// morgan.token('body', (req) => JSON.stringify(req.body));
+// app.use(morgan(':method :url :body'));
 
 // Setting a port number
 const PORT = process.env.PORT || 3001;

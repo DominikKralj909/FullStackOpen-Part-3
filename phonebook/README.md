@@ -4,7 +4,7 @@ This is the backend for the Phonebook application. It is deployed on Render.
 
 ## Deployed Application
 
-You can access the application at: [https://your-app-name.onrender.com](https://your-app-name.onrender.com)
+You can access the application at: [Phonebook](https://fullstackopen-part-3-3.onrender.com/)
 
 ## API Endpoints
 
